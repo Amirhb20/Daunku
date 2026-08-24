@@ -1,0 +1,37 @@
+@import "reset.css";
+@import "grid.css";
+@import "fonts.css";
+
+:root {
+  --primary-color: #fff;
+  --text-color: #081323;
+  --secendery-text-color: #828282;
+  --gradint-color: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+}
+
+/*
+
+-- App
+
+*/
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "worksans";
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+}
+/*
+--reset
+
+*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "worksans";
+  src: url("../fonts/WorkSans-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "worksans Medium";
+  src: url("../fonts/WorkSans-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "worksans SemiBold";
+  src: url("../fonts/WorkSans-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "worksans Bold";
+  src: url("../fonts/WorkSans-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter_18pt-Bold.ttf") format("truetype");
+  font-display: swap;
+}
