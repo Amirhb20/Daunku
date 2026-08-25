@@ -1,0 +1,136 @@
+@media screen and (max-width: 1550px) {
+  .header {
+    min-height: 89rem;
+  }
+  .header-content__title {
+    font-size: 4.5rem;
+  }
+  .header-content {
+    margin-top: 6rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    min-height: 86rem;
+  }
+  .header-content {
+    margin-top: 7rem;
+  }
+  .infos {
+    display: none;
+  }
+  .header-content__caption {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .list__item {
+    margin-right: 6rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header {
+    min-height: 90rem;
+    mask-image: none;
+    background-position: left center;
+  }
+  .header-content__title {
+    font-size: 4rem;
+  }
+  .header-content__caption {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .header-content-box {
+    width: 42rem;
+  }
+  .list {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    background: rgba(42, 54, 70, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+  }
+  .list--show {
+    height: 24rem;
+    overflow: visible;
+  }
+  .list__item {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  .list__item:first-child {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-content__title {
+    font-size: 3.5rem;
+  }
+  .header-content__title {
+    font-size: 3rem;
+  }
+  .header-content__caption {
+    font-size: 1.8rem;
+  }
+  .header-content-box {
+    width: 35rem;
+  }
+  .header-content__caption {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+  .nav-toggle__icon {
+    display: flex;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header {
+    min-height: 115rem;
+  }
+  .header-content-box {
+    width: 39rem;
+  }
+  .header-content__caption {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .header-content__title {
+    font-size: 2.8rem;
+  }
+  .header-content-box {
+    width: 35rem;
+  }
+  .header-content__caption {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 365px) {
+  .header-content__title {
+    font-size: 2.6rem;
+  }
+  .header-content__caption {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .header-content-box {
+    width: 32rem;
+  }
+  .header-content-box {
+    width: 30rem;
+  }
+  .header-content-box__icon {
+    width: 3rem;
+    height: 3rem;
+  }
+}
