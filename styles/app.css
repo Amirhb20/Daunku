@@ -95,7 +95,6 @@ nav
   margin-right: 9rem;
   transition: color 1s ease-in;
   cursor: pointer;
-  
 }
 .list__item:last-child {
   margin-right: 0rem;
@@ -314,3 +313,41 @@ header content
   top: 28rem;
 }
 /*
+*/
+.main {
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+}
+/*
+
+----services-----
+
+*/
+.service {
+}
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.service-box {
+  display: flex;
+  align-items: center;
+}
+.service-box__icon {
+  margin-right: 3rem;
+}
+.service-box__text {
+}
+.service-box__text__title {
+  font-family: "worksans Medium";
+  font-size: 3.2rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+.service-box__text__descripton {
+  font-family: "worksans Medium";
+  font-size: 2rem;
+  color: var(--secendery-text-color);
+}
