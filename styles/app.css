@@ -470,3 +470,96 @@ header content
 .product-card__box__price__icon {
   cursor: pointer;
 }
+/*
+
+----referece-----
+
+*/
+.reference {
+  margin-top: 20rem;
+}
+.reference-content {
+  text-align: center;
+}
+.reference-content__title {
+  font-family: "worksans Medium";
+
+  color: var(--text-color);
+  font-size: 6rem;
+}
+.reference-content__descriptoin {
+  font-size: 2.4rem;
+  color: #4f4f4f;
+}
+.reference-photo {
+  margin-top: 10rem;
+  display: flex;
+  gap: 2rem;
+  overflow: hidden;
+}
+.reference-photo__right {
+  max-width: 73rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 1s ease-in;
+  transform: translateX(-74rem);
+}
+.reference__img {
+  position: relative;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+.reference__img::before {
+  content: " ";
+  position: absolute;
+  background-color: inherit;
+  width: 100%;
+  transition: all 0.1s ease-in;
+  height: 99.5%;
+  border-radius: 4rem;
+}
+.reference__img.active::before {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.reference__img img {
+  width: 100%;
+  height: 100%;
+}
+.reference__img__title {
+  position: absolute;
+  font-family: "worksans SemiBold";
+  visibility: hidden;
+  color: var(--primary-color);
+  transition: all 0.1s ease-in;
+  font-size: 5.5rem;
+}
+.reference__img.active .reference__img__title {
+  opacity: 1;
+  visibility: visible;
+}
+
+.title-1 {
+  left: 13rem;
+  bottom: 19rem;
+}
+.title-2 {
+  left: 11rem;
+  bottom: 12rem;
+}
+.title-3 {
+  left: 16rem;
+  bottom: 33rem;
+}
+.reference-photo__left {
+  opacity: 0;
+  transition: all 1s ease-in;
+  transform: translateX(74rem);
+}
+
+.reference-photo.show .reference-photo__right,
+.reference-photo.show .reference-photo__left {
+  transform: translateX(0);
+  opacity: 1;
+}
