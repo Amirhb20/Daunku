@@ -351,3 +351,122 @@ header content
   font-size: 2rem;
   color: var(--secendery-text-color);
 }
+/*
+
+----shop-----
+
+*/
+.shop {
+  margin-top: 30rem;
+}
+.product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.product-content {
+  flex-basis: 25%;
+  margin-right: 0;
+  margin-bottom: 14rem;
+  align-items: center;
+}
+.product-title {
+  font-family: "worksans Medium";
+  font-size: 6.5rem;
+  color: var(--text-color);
+  margin-bottom: 3rem;
+  line-height: 7rem;
+}
+.product-cpation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-cpation svg {
+  cursor: pointer;
+}
+.product-cpation svg:hover {
+  color: #000;
+}
+.product-cpation__text {
+  font-family: "worksans Medium";
+  font-size: 2.4rem;
+  color: #4f4f4f;
+  margin-right: 1.5rem;
+}
+.product-cpation__text:hover {
+  color: #000;
+}
+.product-card-wrapper {
+  flex-basis: 75%;
+}
+.product-card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+.product-card__box {
+  width: 32rem;
+  height: 50rem;
+  position: relative;
+  transition: all 0.2s ease-in;
+}
+.product-card__box:hover {
+  transform: scale(1.1);
+}
+.product-card__box::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background-color: #c1d0e4;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+.product-card__box__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  height: 29rem;
+}
+
+.product-card__box__img {
+  transform: translatey(-6rem);
+}
+
+.product-card__box__content {
+  background-color: var(--primary-color);
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  border-radius: 5rem;
+  padding: 2rem 4.5rem;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.product-card__box__title {
+  font-family: "worksans Medium";
+  font-size: 2.8rem;
+  color: var(--text-color);
+}
+.product-card__box__icon {
+  margin-top: 0.5rem;
+  margin-bottom: 5rem;
+}
+.product-card__box__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-card__box__price__text {
+  font-family: "worksans Medium";
+  font-size: 2.8 rem;
+  color: var(--text-color);
+}
+.product-card__box__price__icon {
+  cursor: pointer;
+}
