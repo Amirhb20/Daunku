@@ -51,6 +51,24 @@
   .product-title {
     margin-bottom: 2.5rem;
   }
+  .reference__img__title {
+    font-size: 5rem;
+  }
+  .title-1 {
+    left: 9rem;
+    bottom: 15rem;
+  }
+  .title-2 {
+    left: 8rem;
+    bottom: 10rem;
+  }
+  .title-3 {
+    left: 12rem;
+    bottom: 31rem;
+  }
+  .reference__img::before {
+    border-radius: 3rem;
+  }
 }
 @media screen and (max-width: 992px) {
   .header {
@@ -96,6 +114,31 @@
   .product-title {
     margin-bottom: 2rem;
   }
+  .reference-photo {
+    flex-direction: column;
+  }
+  .reference__img::before {
+    height: 99%;
+    border-radius: 5rem;
+  }
+  .reference__img__title {
+    font-size: 6rem;
+  }
+  .title-1 {
+    left: 18rem;
+    bottom: 24rem;
+  }
+  .title-2 {
+    left: 17rem;
+    bottom: 14rem;
+  }
+  .title-3 {
+    left: 21rem;
+    bottom: 48rem;
+  }
+  .reference-content__title {
+    font-size: 5rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .header-content__title {
@@ -129,6 +172,35 @@
     font-size: 5.5rem;
     margin-bottom: 1.5rem;
   }
+  .reference__img__title {
+    font-size: 5rem;
+  }
+  .title-1 {
+    left: 12rem;
+    bottom: 18rem;
+  }
+  .title-2 {
+    left: 10rem;
+    bottom: 11rem;
+  }
+  .title-3 {
+    left: 15rem;
+    bottom: 35rem;
+  }
+  .reference-photo {
+    margin-top: 8rem;
+  }
+  .reference__img::before {
+    height: 98.5%;
+    border-radius: 3rem;
+  }
+  .reference-content__title {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  .reference-content__descriptoin {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -146,6 +218,31 @@
     font-size: 4.5rem;
   }
 }
+@media screen and (max-width: 520px) {
+  .reference__img__title {
+    font-size: 4rem;
+  }
+  .title-1 {
+    left: 10rem;
+    bottom: 16rem;
+  }
+  .title-3 {
+    left: 13rem;
+    bottom: 30rem;
+  }
+  .title-2 {
+    bottom: 9rem;
+  }
+  .reference-content__title {
+    font-size: 3.5rem;
+  }
+  .reference-content__descriptoin {
+    font-size: 1.8rem;
+  }
+  .reference-photo {
+    margin-top: 6rem;
+  }
+}
 @media screen and (max-width: 440px) {
   .header-content__title {
     font-size: 2.8rem;
@@ -155,6 +252,32 @@
   }
   .header-content__caption {
     margin-bottom: 2rem;
+  }
+  .title-1 {
+    left: 8rem;
+    bottom: 12rem;
+  }
+
+  .title-2 {
+    left: 8rem;
+    bottom: 8rem;
+  }
+  .title-3 {
+    left: 12rem;
+    bottom: 25rem;
+  }
+  .reference__img::before {
+    height: 98%;
+    border-radius: 3rem;
+  }
+  .reference-content__title {
+    font-size: 3rem;
+  }
+  .reference-content__descriptoin {
+    margin-top: 1.5rem;
+  }
+  .reference-photo {
+    margin-top: 7rem;
   }
 }
 @media screen and (max-width: 365px) {
@@ -188,5 +311,26 @@
   }
   .product-cpation__text {
     font-size: 1.8rem;
+  }
+  .title-1 {
+    left: 6rem;
+    bottom: 11rem;
+  }
+  .reference__img__title {
+    font-size: 3rem;
+  }
+  .title-2 {
+    left: 6rem;
+    bottom: 7rem;
+  }
+  .title-3 {
+    left: 9rem;
+    bottom: 19rem;
+  }
+  .reference__img::before {
+    border-radius: 2rem;
+  }
+  .reference-photo {
+    margin-top: 5rem;
   }
 }
