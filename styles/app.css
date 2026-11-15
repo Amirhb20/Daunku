@@ -563,3 +563,60 @@ header content
   transform: translateX(0);
   opacity: 1;
 }
+/*
+
+----Protect-----
+
+*/
+
+.Protect {
+  margin-top: 25rem;
+}
+.Protect-head {
+  max-width: 48rem;
+}
+.Protect-head__title {
+  font-family: "worksans Medium";
+  font-size: 6.4rem;
+  color: var(--text-color);
+  line-height: 1.2;
+}
+.Protect-head__description {
+  font-size: 2.4rem;
+  color: #4f4f4f;
+  margin-top: 2rem;
+}
+.Protect-content {
+  margin-top: 8rem;
+}
+.Protect-content__section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.Protect-content__icon {
+  width: 8rem;
+  height: 8rem;
+}
+
+.Protect-content__text {
+  max-width: 49rem;
+}
+.Protect-content__title {
+  font-family: "worksans Medium";
+  font-size: 3.2rem;
+  color: #000000;
+}
+.Protect-content__caption {
+  font-size: 2rem;
+  color: #4f4f4f;
+}
+.Protect-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.Protect-photo__img {
+}
