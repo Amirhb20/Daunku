@@ -619,4 +619,6 @@ header content
   height: 100%;
 }
 .Protect-photo__img {
+  width: 100%;
+  height: 85%;
 }
