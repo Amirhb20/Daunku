@@ -622,3 +622,122 @@ header content
   width: 100%;
   height: 85%;
 }
+/*
+
+-------
+footer
+-------
+
+*/
+.footer {
+  background: linear-gradient(#566270, #283444);
+}
+.footer-content {
+  color: var(--primary-color);
+  padding: 10rem 0;
+}
+.footer-content-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid var(--primary-color);
+  padding-bottom: 5rem;
+}
+.footer-newslatter {
+  margin-right: 12rem;
+}
+.footer-newslatter__title {
+  font-family: "worksans Medium";
+  font-size: 4.8rem;
+}
+.footer-newslatter__box {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 5rem;
+  width: 43rem;
+  border: 0.1rem solid var(--primary-color);
+}
+.footer-newslatter__input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 2rem;
+  color: var(--primary-color);
+  font-size: 1.6rem;
+}
+.footer-newslatter__input:valid {
+  color: #44bd32;
+}
+.footer-newslatter__input:invalid {
+  color: var(--primary-color);
+}
+
+.footer-newslatter__input::placeholder {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+.footer-newslatter__button {
+  border: none;
+  outline: none;
+  background: var(--gradint-color);
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+}
+.footer-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 9rem;
+}
+.footer-text__box {
+  max-width: 35rem;
+}
+.footer-text__box__title {
+  font-family: "worksans Bold";
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+.footer-text__list {
+}
+.footer-text__list__item {
+  font-family: "worksans Medium";
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.footer-text__list__item:last-child {
+  margin-bottom: 0;
+}
+.footer-contnt-bottom {
+  padding-top: 5rem;
+}
+.footer-contnt-bottom__text {
+  font-size: 2rem;
+  text-align: center;
+}
+/*
+
+----scroll top-----
+
+*/
+.scroll {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  background: var(--gradint-color);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -1.5rem;
+  right: 0;
+}
+.scroll__icon {
+  width: 2.8rem;
+  height: 2.8rem;
+}
