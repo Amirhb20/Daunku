@@ -741,3 +741,169 @@ footer
   width: 2.8rem;
   height: 2.8rem;
 }
+/*
+
+----shopping card-----
+
+*/
+.cardtab {
+  background: rgba(42, 54, 70, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  z-index: 100;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.cardtab--show {
+  width: 35rem;
+}
+.cardtab__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.1px solid var(--primary-color);
+  padding: 0.5rem 0;
+}
+.cardtab__head {
+}
+.cardtab__title {
+  font-family: "Inter";
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  padding: 1rem 0;
+}
+.listcard {
+  margin-top: 5rem;
+  overflow: auto;
+}
+.listcard::-webkit-scrollbar {
+  width: 0;
+}
+.item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7rem 8rem 6rem 1fr;
+  align-items: center;
+  background-color: var(--primary-color);
+  margin: 0 1rem;
+  padding: 3rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 2rem;
+  text-align: center;
+  box-shadow: 0 0 2rem;
+  color: var(--text-color);
+  font-family: "worksans Medium";
+  margin-bottom: 2rem;
+}
+.listcard__img {
+  width: 100%;
+}
+.name {
+}
+.total-price {
+}
+.quantity {
+  background-color: #c1d0e4;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.6rem 0.6rem;
+  border-radius: 2rem;
+  width: 10rem;
+}
+.minus {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.quantity__text {
+  border-left: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
+  padding: 0 0.8rem;
+}
+.plus {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.btn {
+  text-align: center;
+  cursor: pointer;
+}
+.btn-close {
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn-close svg {
+  color: var(--primary-color);
+}
+
+.btn-card-close {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.btn-card-close:hover {
+  transform: scale(1.4);
+}
+.cartab-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.cardtab-total {
+  display: flex;
+  color: var(--primary-color);
+  align-items: center;
+  justify-content: space-between;
+}
+.cardtab-total__title {
+  font-family: "Inter";
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.cardtab-total__price {
+  font-family: "worksans Medium";
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.cardtab-buy {
+  width: 100%;
+  margin-top: 2rem;
+}
+.cardtab-buy__btn {
+  border: none;
+  outline: none;
+  background-color: #c1d0e4;
+  font-family: "worksans SemiBold";
+  font-size: 2rem;
+  color: var(--text-color);
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.cardtab-buy__btn:hover {
+  transform: scale(1.05);
+}
